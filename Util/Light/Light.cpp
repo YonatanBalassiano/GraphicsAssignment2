@@ -6,7 +6,7 @@
 
 void Light::setIntensity(glm::vec4 intensity) {
     this-> rgbIntensity = glm::vec3(intensity.r, intensity.g, intensity.b);
-    this-> intensityAlpha = intensity.a;
+    this-> shiness = intensity.a;
 }
 
 

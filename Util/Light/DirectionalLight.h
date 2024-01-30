@@ -5,7 +5,6 @@
 #ifndef GAME_DIRECTIONALLIGHT_H
 #define GAME_DIRECTIONALLIGHT_H
 
-#include "glm/glm.hpp"
 #include "Light.h"
 
 class DirectionalLight : public Light {

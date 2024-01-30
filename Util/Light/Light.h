@@ -15,17 +15,16 @@ enum lightTypes {
 class Light{
 public:
     glm::vec3 position;
+    glm::vec3 direction;
     glm::vec3 rgbIntensity;
-    float intensityAlpha;
-    float direction;
+    float angle;
     lightTypes type;
-    Light(glm::vec4 position, glm::vec4 color, glm::vec4 direction, float angle1, float angle2, float falloff, float radious, float type);
+    float shiness;
     void setIntensity(glm::vec4 intensity);
     Light();
     ~Light();
-}
+};
 
-
-#endif //GAME_LIGHT_H
+#endif
 
 

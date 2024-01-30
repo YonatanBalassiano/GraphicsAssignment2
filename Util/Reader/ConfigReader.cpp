@@ -103,9 +103,8 @@ void ConfigReader::setSpotlightPosition() {
         if (lightData[i]->type == SPOT) {
             glm::vec4 currPosition = positionData[positionIndex++];
             glm::vec3 point = glm::vec3(currPosition.x, currPosition.y, currPosition.z);
-            float direction = currPosition.w;
             lightData[i]-> position = point;
-            lightData[i]-> direction = direction;
+            lightData[i]-> angle = currPosition.w;
         }
         lightData[i]->setIntensity(intensityData[i]);
     }
