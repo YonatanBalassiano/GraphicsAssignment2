@@ -83,161 +83,177 @@ CMakeFiles/Display.dir/DisplayGLFW/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/DisplayGLFW/display.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/DisplayGLFW/display.cpp -o CMakeFiles/Display.dir/DisplayGLFW/display.cpp.s
 
-CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.cpp
-CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o -MF CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o.d -o CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.cpp
 
-CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.cpp > CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.i
 
-CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.cpp -o CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.s
 
-CMakeFiles/Display.dir/Util/Light/Light.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Light/Light.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.cpp
-CMakeFiles/Display.dir/Util/Light/Light.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Display.dir/Util/Light/Light.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Light/Light.cpp.o -MF CMakeFiles/Display.dir/Util/Light/Light.cpp.o.d -o CMakeFiles/Display.dir/Util/Light/Light.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.cpp
 
-CMakeFiles/Display.dir/Util/Light/Light.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Light/Light.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.cpp > CMakeFiles/Display.dir/Util/Light/Light.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.i
 
-CMakeFiles/Display.dir/Util/Light/Light.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Light/Light.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.cpp -o CMakeFiles/Display.dir/Util/Light/Light.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.s
 
-CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.cpp
-CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o -MF CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o.d -o CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.cpp
 
-CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.cpp > CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.i
 
-CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.cpp -o CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.s
 
-CMakeFiles/Display.dir/Util/Object/Object.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Object/Object.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.cpp
-CMakeFiles/Display.dir/Util/Object/Object.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Display.dir/Util/Object/Object.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Object/Object.cpp.o -MF CMakeFiles/Display.dir/Util/Object/Object.cpp.o.d -o CMakeFiles/Display.dir/Util/Object/Object.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.cpp
 
-CMakeFiles/Display.dir/Util/Object/Object.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Object/Object.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.cpp > CMakeFiles/Display.dir/Util/Object/Object.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.i
 
-CMakeFiles/Display.dir/Util/Object/Object.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Object/Object.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.cpp -o CMakeFiles/Display.dir/Util/Object/Object.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.s
 
-CMakeFiles/Display.dir/Util/Object/Plane.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Object/Plane.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.cpp
-CMakeFiles/Display.dir/Util/Object/Plane.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Display.dir/Util/Object/Plane.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Object/Plane.cpp.o -MF CMakeFiles/Display.dir/Util/Object/Plane.cpp.o.d -o CMakeFiles/Display.dir/Util/Object/Plane.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.cpp
 
-CMakeFiles/Display.dir/Util/Object/Plane.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Object/Plane.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.cpp > CMakeFiles/Display.dir/Util/Object/Plane.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.i
 
-CMakeFiles/Display.dir/Util/Object/Plane.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Object/Plane.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.cpp -o CMakeFiles/Display.dir/Util/Object/Plane.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.s
 
-CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.cpp
-CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o -MF CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o.d -o CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.cpp
 
-CMakeFiles/Display.dir/Util/Object/Sphere.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/Object/Sphere.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.cpp > CMakeFiles/Display.dir/Util/Object/Sphere.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.i
 
-CMakeFiles/Display.dir/Util/Object/Sphere.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/Object/Sphere.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.cpp -o CMakeFiles/Display.dir/Util/Object/Sphere.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.s
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.cpp
-CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o -MF CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o.d -o CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.cpp > CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.i
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.cpp -o CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.s
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.cpp
-CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o -MF CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o.d -o CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.cpp > CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.i
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.cpp -o CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.s
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o: CMakeFiles/Display.dir/flags.make
-CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.cpp
-CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o -MF CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o.d -o CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.cpp > CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.i
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp > CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.i
 
-CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.cpp -o CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.s
+CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.s
+
+CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o: CMakeFiles/Display.dir/flags.make
+CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp
+CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o: CMakeFiles/Display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o -MF CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o.d -o CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o -c /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp
+
+CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp > CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i
+
+CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp -o CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s
 
 # Object files for target Display
 Display_OBJECTS = \
 "CMakeFiles/Display.dir/DisplayGLFW/display.cpp.o" \
-"CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o" \
-"CMakeFiles/Display.dir/Util/Light/Light.cpp.o" \
-"CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o" \
-"CMakeFiles/Display.dir/Util/Object/Object.cpp.o" \
-"CMakeFiles/Display.dir/Util/Object/Plane.cpp.o" \
-"CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o" \
-"CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o" \
-"CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o" \
-"CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o"
+"CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o" \
+"CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o"
 
 # External object files for target Display
 Display_EXTERNAL_OBJECTS =
 
 libDisplay.a: CMakeFiles/Display.dir/DisplayGLFW/display.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Light/Light.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Object/Object.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Object/Plane.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o
-libDisplay.a: CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o
+libDisplay.a: CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o
 libDisplay.a: CMakeFiles/Display.dir/build.make
 libDisplay.a: CMakeFiles/Display.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libDisplay.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libDisplay.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Display.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Display.dir/link.txt --verbose=$(VERBOSE)
 

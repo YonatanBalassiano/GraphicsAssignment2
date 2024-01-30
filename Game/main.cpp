@@ -21,7 +21,7 @@ int main(int argc,char *argv[])
 
 	display.SetScene(scn);
 
-	string fileName = "../scene4.txt";
+	std::string fileName = "../scene4.txt";
 
 
 	while(!display.CloseWindow())

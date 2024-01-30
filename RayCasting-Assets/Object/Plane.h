@@ -12,12 +12,11 @@ public:
     Plane(const glm::vec4& position, objectTypes type);
     ~Plane() override = default;
 
-    //////
     glm::vec3 normal();
     float distance();
-    float FindIntersection(Ray ray);
+    float FindIntersection(Ray ray) override;
     glm::vec3 getColor(const glm::vec3& hit) const;
-    glm::vec3 getNormal(glm::vec3 hit);
+    glm::vec3 getNormal(const glm::vec3& hit);
 };
 
 #endif //GAME_PLANE_H

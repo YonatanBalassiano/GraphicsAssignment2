@@ -1958,61 +1958,67 @@
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Game/main.cpp">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Hit.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Image.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/ImageConstractor/Ray.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/DirectionalLight.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/Light.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/DirectionalLight.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Light/SpotLight.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Object.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/SpotLight.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Plane.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Object.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Object/Sphere.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Plane.h">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.cpp">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.cpp">
 			<Option target="Display"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Util/Reader/ConfigReader.h">
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Object/Sphere.h">
+			<Option target="Display"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.cpp">
+			<Option target="Display"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.h">
 			<Option target="Display"/>
 		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glfw/src/glfw_config.h">

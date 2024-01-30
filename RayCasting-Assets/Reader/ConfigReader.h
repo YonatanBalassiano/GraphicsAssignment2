@@ -27,7 +27,7 @@ private:
     int imageWidth, imageHeight;
 
 public :
-    void readFile (string fileName,int width, int height);
+    void readConfigFile (string fileName,int width, int height);
     const vector<vector<string>> &getSceneData() const;
     float getBoundFlag() const;
     const glm::vec3 &getEye() const;

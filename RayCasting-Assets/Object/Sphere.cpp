@@ -30,21 +30,20 @@ float Sphere::FindIntersection(Ray ray) {
     float c = glm::dot(rayToSphereCenter, rayToSphereCenter) - radius * radius;
     float discriminant = b*b-4*a*c;
 
-    if (discriminant < 0) // no intersection
+    if (discriminant < 0)
         return -1;
     float t1 = (-b - sqrt(discriminant)) / (2*a);
     float t2 = (-b + sqrt(discriminant)) / (2*a);
-    if (t1 < 0 && t2 < 0) // sphere is behind ray
+    if (t1 < 0 && t2 < 0)
         return -1;
-    if (t1 < 0) // t2 is the only intersection
+    if (t1 < 0)
         return t2;
-    if (t2 < 0) // t1 is the only intersection
+    if (t2 < 0)
         return t1;
 
     float inter;
-    // incase of Transperant spheres
     float threshold = 0.001f;
-    (std::min(t1, t2) <= threshold)? inter = glm::max(t1, t2) : inter = std::min(t1, t2);
+    (std::fmin(t1, t2) <= threshold)? inter = glm::max(t1, t2) : inter = std::fmin(t1, t2);
     return inter;
 }
 

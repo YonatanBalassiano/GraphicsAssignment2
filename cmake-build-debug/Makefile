@@ -1000,221 +1000,245 @@ Game/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game/main.cpp.s
 .PHONY : Game/main.cpp.s
 
-Util/ImageConstractor/Hit.o: Util/ImageConstractor/Hit.cpp.o
-.PHONY : Util/ImageConstractor/Hit.o
+RayCasting-Assets/Components/Hit.o: RayCasting-Assets/Components/Hit.cpp.o
+.PHONY : RayCasting-Assets/Components/Hit.o
 
 # target to build an object file
-Util/ImageConstractor/Hit.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.o
-.PHONY : Util/ImageConstractor/Hit.cpp.o
+RayCasting-Assets/Components/Hit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o
+.PHONY : RayCasting-Assets/Components/Hit.cpp.o
 
-Util/ImageConstractor/Hit.i: Util/ImageConstractor/Hit.cpp.i
-.PHONY : Util/ImageConstractor/Hit.i
+RayCasting-Assets/Components/Hit.i: RayCasting-Assets/Components/Hit.cpp.i
+.PHONY : RayCasting-Assets/Components/Hit.i
 
 # target to preprocess a source file
-Util/ImageConstractor/Hit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.i
-.PHONY : Util/ImageConstractor/Hit.cpp.i
+RayCasting-Assets/Components/Hit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.i
+.PHONY : RayCasting-Assets/Components/Hit.cpp.i
 
-Util/ImageConstractor/Hit.s: Util/ImageConstractor/Hit.cpp.s
-.PHONY : Util/ImageConstractor/Hit.s
+RayCasting-Assets/Components/Hit.s: RayCasting-Assets/Components/Hit.cpp.s
+.PHONY : RayCasting-Assets/Components/Hit.s
 
 # target to generate assembly for a file
-Util/ImageConstractor/Hit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Hit.cpp.s
-.PHONY : Util/ImageConstractor/Hit.cpp.s
+RayCasting-Assets/Components/Hit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.s
+.PHONY : RayCasting-Assets/Components/Hit.cpp.s
 
-Util/ImageConstractor/Image.o: Util/ImageConstractor/Image.cpp.o
-.PHONY : Util/ImageConstractor/Image.o
+RayCasting-Assets/Components/Image.o: RayCasting-Assets/Components/Image.cpp.o
+.PHONY : RayCasting-Assets/Components/Image.o
 
 # target to build an object file
-Util/ImageConstractor/Image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.o
-.PHONY : Util/ImageConstractor/Image.cpp.o
+RayCasting-Assets/Components/Image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.o
+.PHONY : RayCasting-Assets/Components/Image.cpp.o
 
-Util/ImageConstractor/Image.i: Util/ImageConstractor/Image.cpp.i
-.PHONY : Util/ImageConstractor/Image.i
+RayCasting-Assets/Components/Image.i: RayCasting-Assets/Components/Image.cpp.i
+.PHONY : RayCasting-Assets/Components/Image.i
 
 # target to preprocess a source file
-Util/ImageConstractor/Image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.i
-.PHONY : Util/ImageConstractor/Image.cpp.i
+RayCasting-Assets/Components/Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.i
+.PHONY : RayCasting-Assets/Components/Image.cpp.i
 
-Util/ImageConstractor/Image.s: Util/ImageConstractor/Image.cpp.s
-.PHONY : Util/ImageConstractor/Image.s
+RayCasting-Assets/Components/Image.s: RayCasting-Assets/Components/Image.cpp.s
+.PHONY : RayCasting-Assets/Components/Image.s
 
 # target to generate assembly for a file
-Util/ImageConstractor/Image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Image.cpp.s
-.PHONY : Util/ImageConstractor/Image.cpp.s
+RayCasting-Assets/Components/Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.s
+.PHONY : RayCasting-Assets/Components/Image.cpp.s
 
-Util/ImageConstractor/Ray.o: Util/ImageConstractor/Ray.cpp.o
-.PHONY : Util/ImageConstractor/Ray.o
+RayCasting-Assets/Components/Ray.o: RayCasting-Assets/Components/Ray.cpp.o
+.PHONY : RayCasting-Assets/Components/Ray.o
 
 # target to build an object file
-Util/ImageConstractor/Ray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.o
-.PHONY : Util/ImageConstractor/Ray.cpp.o
+RayCasting-Assets/Components/Ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.o
+.PHONY : RayCasting-Assets/Components/Ray.cpp.o
 
-Util/ImageConstractor/Ray.i: Util/ImageConstractor/Ray.cpp.i
-.PHONY : Util/ImageConstractor/Ray.i
+RayCasting-Assets/Components/Ray.i: RayCasting-Assets/Components/Ray.cpp.i
+.PHONY : RayCasting-Assets/Components/Ray.i
 
 # target to preprocess a source file
-Util/ImageConstractor/Ray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.i
-.PHONY : Util/ImageConstractor/Ray.cpp.i
+RayCasting-Assets/Components/Ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.i
+.PHONY : RayCasting-Assets/Components/Ray.cpp.i
 
-Util/ImageConstractor/Ray.s: Util/ImageConstractor/Ray.cpp.s
-.PHONY : Util/ImageConstractor/Ray.s
+RayCasting-Assets/Components/Ray.s: RayCasting-Assets/Components/Ray.cpp.s
+.PHONY : RayCasting-Assets/Components/Ray.s
 
 # target to generate assembly for a file
-Util/ImageConstractor/Ray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/ImageConstractor/Ray.cpp.s
-.PHONY : Util/ImageConstractor/Ray.cpp.s
+RayCasting-Assets/Components/Ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Ray.cpp.s
+.PHONY : RayCasting-Assets/Components/Ray.cpp.s
 
-Util/Light/DirectionalLight.o: Util/Light/DirectionalLight.cpp.o
-.PHONY : Util/Light/DirectionalLight.o
+RayCasting-Assets/ImageConstructor/ImageConstructor.o: RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.o
 
 # target to build an object file
-Util/Light/DirectionalLight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.o
-.PHONY : Util/Light/DirectionalLight.cpp.o
+RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.o
 
-Util/Light/DirectionalLight.i: Util/Light/DirectionalLight.cpp.i
-.PHONY : Util/Light/DirectionalLight.i
+RayCasting-Assets/ImageConstructor/ImageConstructor.i: RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.i
 
 # target to preprocess a source file
-Util/Light/DirectionalLight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.i
-.PHONY : Util/Light/DirectionalLight.cpp.i
+RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.i
 
-Util/Light/DirectionalLight.s: Util/Light/DirectionalLight.cpp.s
-.PHONY : Util/Light/DirectionalLight.s
+RayCasting-Assets/ImageConstructor/ImageConstructor.s: RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.s
 
 # target to generate assembly for a file
-Util/Light/DirectionalLight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/DirectionalLight.cpp.s
-.PHONY : Util/Light/DirectionalLight.cpp.s
+RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s
+.PHONY : RayCasting-Assets/ImageConstructor/ImageConstructor.cpp.s
 
-Util/Light/Light.o: Util/Light/Light.cpp.o
-.PHONY : Util/Light/Light.o
+RayCasting-Assets/Light/DirectionalLight.o: RayCasting-Assets/Light/DirectionalLight.cpp.o
+.PHONY : RayCasting-Assets/Light/DirectionalLight.o
 
 # target to build an object file
-Util/Light/Light.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/Light.cpp.o
-.PHONY : Util/Light/Light.cpp.o
+RayCasting-Assets/Light/DirectionalLight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.o
+.PHONY : RayCasting-Assets/Light/DirectionalLight.cpp.o
 
-Util/Light/Light.i: Util/Light/Light.cpp.i
-.PHONY : Util/Light/Light.i
+RayCasting-Assets/Light/DirectionalLight.i: RayCasting-Assets/Light/DirectionalLight.cpp.i
+.PHONY : RayCasting-Assets/Light/DirectionalLight.i
 
 # target to preprocess a source file
-Util/Light/Light.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/Light.cpp.i
-.PHONY : Util/Light/Light.cpp.i
+RayCasting-Assets/Light/DirectionalLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.i
+.PHONY : RayCasting-Assets/Light/DirectionalLight.cpp.i
 
-Util/Light/Light.s: Util/Light/Light.cpp.s
-.PHONY : Util/Light/Light.s
+RayCasting-Assets/Light/DirectionalLight.s: RayCasting-Assets/Light/DirectionalLight.cpp.s
+.PHONY : RayCasting-Assets/Light/DirectionalLight.s
 
 # target to generate assembly for a file
-Util/Light/Light.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Light/Light.cpp.s
-.PHONY : Util/Light/Light.cpp.s
+RayCasting-Assets/Light/DirectionalLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/DirectionalLight.cpp.s
+.PHONY : RayCasting-Assets/Light/DirectionalLight.cpp.s
 
-Util/Object/Object.o: Util/Object/Object.cpp.o
-.PHONY : Util/Object/Object.o
+RayCasting-Assets/Light/Light.o: RayCasting-Assets/Light/Light.cpp.o
+.PHONY : RayCasting-Assets/Light/Light.o
 
 # target to build an object file
-Util/Object/Object.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Object.cpp.o
-.PHONY : Util/Object/Object.cpp.o
+RayCasting-Assets/Light/Light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.o
+.PHONY : RayCasting-Assets/Light/Light.cpp.o
 
-Util/Object/Object.i: Util/Object/Object.cpp.i
-.PHONY : Util/Object/Object.i
+RayCasting-Assets/Light/Light.i: RayCasting-Assets/Light/Light.cpp.i
+.PHONY : RayCasting-Assets/Light/Light.i
 
 # target to preprocess a source file
-Util/Object/Object.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Object.cpp.i
-.PHONY : Util/Object/Object.cpp.i
+RayCasting-Assets/Light/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.i
+.PHONY : RayCasting-Assets/Light/Light.cpp.i
 
-Util/Object/Object.s: Util/Object/Object.cpp.s
-.PHONY : Util/Object/Object.s
+RayCasting-Assets/Light/Light.s: RayCasting-Assets/Light/Light.cpp.s
+.PHONY : RayCasting-Assets/Light/Light.s
 
 # target to generate assembly for a file
-Util/Object/Object.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Object.cpp.s
-.PHONY : Util/Object/Object.cpp.s
+RayCasting-Assets/Light/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.s
+.PHONY : RayCasting-Assets/Light/Light.cpp.s
 
-Util/Object/Plane.o: Util/Object/Plane.cpp.o
-.PHONY : Util/Object/Plane.o
+RayCasting-Assets/Object/Object.o: RayCasting-Assets/Object/Object.cpp.o
+.PHONY : RayCasting-Assets/Object/Object.o
 
 # target to build an object file
-Util/Object/Plane.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Plane.cpp.o
-.PHONY : Util/Object/Plane.cpp.o
+RayCasting-Assets/Object/Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.o
+.PHONY : RayCasting-Assets/Object/Object.cpp.o
 
-Util/Object/Plane.i: Util/Object/Plane.cpp.i
-.PHONY : Util/Object/Plane.i
+RayCasting-Assets/Object/Object.i: RayCasting-Assets/Object/Object.cpp.i
+.PHONY : RayCasting-Assets/Object/Object.i
 
 # target to preprocess a source file
-Util/Object/Plane.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Plane.cpp.i
-.PHONY : Util/Object/Plane.cpp.i
+RayCasting-Assets/Object/Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.i
+.PHONY : RayCasting-Assets/Object/Object.cpp.i
 
-Util/Object/Plane.s: Util/Object/Plane.cpp.s
-.PHONY : Util/Object/Plane.s
+RayCasting-Assets/Object/Object.s: RayCasting-Assets/Object/Object.cpp.s
+.PHONY : RayCasting-Assets/Object/Object.s
 
 # target to generate assembly for a file
-Util/Object/Plane.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Plane.cpp.s
-.PHONY : Util/Object/Plane.cpp.s
+RayCasting-Assets/Object/Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Object.cpp.s
+.PHONY : RayCasting-Assets/Object/Object.cpp.s
 
-Util/Object/Sphere.o: Util/Object/Sphere.cpp.o
-.PHONY : Util/Object/Sphere.o
+RayCasting-Assets/Object/Plane.o: RayCasting-Assets/Object/Plane.cpp.o
+.PHONY : RayCasting-Assets/Object/Plane.o
 
 # target to build an object file
-Util/Object/Sphere.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Sphere.cpp.o
-.PHONY : Util/Object/Sphere.cpp.o
+RayCasting-Assets/Object/Plane.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.o
+.PHONY : RayCasting-Assets/Object/Plane.cpp.o
 
-Util/Object/Sphere.i: Util/Object/Sphere.cpp.i
-.PHONY : Util/Object/Sphere.i
+RayCasting-Assets/Object/Plane.i: RayCasting-Assets/Object/Plane.cpp.i
+.PHONY : RayCasting-Assets/Object/Plane.i
 
 # target to preprocess a source file
-Util/Object/Sphere.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Sphere.cpp.i
-.PHONY : Util/Object/Sphere.cpp.i
+RayCasting-Assets/Object/Plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.i
+.PHONY : RayCasting-Assets/Object/Plane.cpp.i
 
-Util/Object/Sphere.s: Util/Object/Sphere.cpp.s
-.PHONY : Util/Object/Sphere.s
+RayCasting-Assets/Object/Plane.s: RayCasting-Assets/Object/Plane.cpp.s
+.PHONY : RayCasting-Assets/Object/Plane.s
 
 # target to generate assembly for a file
-Util/Object/Sphere.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Object/Sphere.cpp.s
-.PHONY : Util/Object/Sphere.cpp.s
+RayCasting-Assets/Object/Plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Plane.cpp.s
+.PHONY : RayCasting-Assets/Object/Plane.cpp.s
 
-Util/Reader/ConfigReader.o: Util/Reader/ConfigReader.cpp.o
-.PHONY : Util/Reader/ConfigReader.o
+RayCasting-Assets/Object/Sphere.o: RayCasting-Assets/Object/Sphere.cpp.o
+.PHONY : RayCasting-Assets/Object/Sphere.o
 
 # target to build an object file
-Util/Reader/ConfigReader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.o
-.PHONY : Util/Reader/ConfigReader.cpp.o
+RayCasting-Assets/Object/Sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.o
+.PHONY : RayCasting-Assets/Object/Sphere.cpp.o
 
-Util/Reader/ConfigReader.i: Util/Reader/ConfigReader.cpp.i
-.PHONY : Util/Reader/ConfigReader.i
+RayCasting-Assets/Object/Sphere.i: RayCasting-Assets/Object/Sphere.cpp.i
+.PHONY : RayCasting-Assets/Object/Sphere.i
 
 # target to preprocess a source file
-Util/Reader/ConfigReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.i
-.PHONY : Util/Reader/ConfigReader.cpp.i
+RayCasting-Assets/Object/Sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.i
+.PHONY : RayCasting-Assets/Object/Sphere.cpp.i
 
-Util/Reader/ConfigReader.s: Util/Reader/ConfigReader.cpp.s
-.PHONY : Util/Reader/ConfigReader.s
+RayCasting-Assets/Object/Sphere.s: RayCasting-Assets/Object/Sphere.cpp.s
+.PHONY : RayCasting-Assets/Object/Sphere.s
 
 # target to generate assembly for a file
-Util/Reader/ConfigReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/Util/Reader/ConfigReader.cpp.s
-.PHONY : Util/Reader/ConfigReader.cpp.s
+RayCasting-Assets/Object/Sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Object/Sphere.cpp.s
+.PHONY : RayCasting-Assets/Object/Sphere.cpp.s
+
+RayCasting-Assets/Reader/ConfigReader.o: RayCasting-Assets/Reader/ConfigReader.cpp.o
+.PHONY : RayCasting-Assets/Reader/ConfigReader.o
+
+# target to build an object file
+RayCasting-Assets/Reader/ConfigReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.o
+.PHONY : RayCasting-Assets/Reader/ConfigReader.cpp.o
+
+RayCasting-Assets/Reader/ConfigReader.i: RayCasting-Assets/Reader/ConfigReader.cpp.i
+.PHONY : RayCasting-Assets/Reader/ConfigReader.i
+
+# target to preprocess a source file
+RayCasting-Assets/Reader/ConfigReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.i
+.PHONY : RayCasting-Assets/Reader/ConfigReader.cpp.i
+
+RayCasting-Assets/Reader/ConfigReader.s: RayCasting-Assets/Reader/ConfigReader.cpp.s
+.PHONY : RayCasting-Assets/Reader/ConfigReader.s
+
+# target to generate assembly for a file
+RayCasting-Assets/Reader/ConfigReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Reader/ConfigReader.cpp.s
+.PHONY : RayCasting-Assets/Reader/ConfigReader.cpp.s
 
 # Help Target
 help:
@@ -1311,33 +1335,36 @@ help:
 	@echo "... Game/main.o"
 	@echo "... Game/main.i"
 	@echo "... Game/main.s"
-	@echo "... Util/ImageConstractor/Hit.o"
-	@echo "... Util/ImageConstractor/Hit.i"
-	@echo "... Util/ImageConstractor/Hit.s"
-	@echo "... Util/ImageConstractor/Image.o"
-	@echo "... Util/ImageConstractor/Image.i"
-	@echo "... Util/ImageConstractor/Image.s"
-	@echo "... Util/ImageConstractor/Ray.o"
-	@echo "... Util/ImageConstractor/Ray.i"
-	@echo "... Util/ImageConstractor/Ray.s"
-	@echo "... Util/Light/DirectionalLight.o"
-	@echo "... Util/Light/DirectionalLight.i"
-	@echo "... Util/Light/DirectionalLight.s"
-	@echo "... Util/Light/Light.o"
-	@echo "... Util/Light/Light.i"
-	@echo "... Util/Light/Light.s"
-	@echo "... Util/Object/Object.o"
-	@echo "... Util/Object/Object.i"
-	@echo "... Util/Object/Object.s"
-	@echo "... Util/Object/Plane.o"
-	@echo "... Util/Object/Plane.i"
-	@echo "... Util/Object/Plane.s"
-	@echo "... Util/Object/Sphere.o"
-	@echo "... Util/Object/Sphere.i"
-	@echo "... Util/Object/Sphere.s"
-	@echo "... Util/Reader/ConfigReader.o"
-	@echo "... Util/Reader/ConfigReader.i"
-	@echo "... Util/Reader/ConfigReader.s"
+	@echo "... RayCasting-Assets/Components/Hit.o"
+	@echo "... RayCasting-Assets/Components/Hit.i"
+	@echo "... RayCasting-Assets/Components/Hit.s"
+	@echo "... RayCasting-Assets/Components/Image.o"
+	@echo "... RayCasting-Assets/Components/Image.i"
+	@echo "... RayCasting-Assets/Components/Image.s"
+	@echo "... RayCasting-Assets/Components/Ray.o"
+	@echo "... RayCasting-Assets/Components/Ray.i"
+	@echo "... RayCasting-Assets/Components/Ray.s"
+	@echo "... RayCasting-Assets/ImageConstructor/ImageConstructor.o"
+	@echo "... RayCasting-Assets/ImageConstructor/ImageConstructor.i"
+	@echo "... RayCasting-Assets/ImageConstructor/ImageConstructor.s"
+	@echo "... RayCasting-Assets/Light/DirectionalLight.o"
+	@echo "... RayCasting-Assets/Light/DirectionalLight.i"
+	@echo "... RayCasting-Assets/Light/DirectionalLight.s"
+	@echo "... RayCasting-Assets/Light/Light.o"
+	@echo "... RayCasting-Assets/Light/Light.i"
+	@echo "... RayCasting-Assets/Light/Light.s"
+	@echo "... RayCasting-Assets/Object/Object.o"
+	@echo "... RayCasting-Assets/Object/Object.i"
+	@echo "... RayCasting-Assets/Object/Object.s"
+	@echo "... RayCasting-Assets/Object/Plane.o"
+	@echo "... RayCasting-Assets/Object/Plane.i"
+	@echo "... RayCasting-Assets/Object/Plane.s"
+	@echo "... RayCasting-Assets/Object/Sphere.o"
+	@echo "... RayCasting-Assets/Object/Sphere.i"
+	@echo "... RayCasting-Assets/Object/Sphere.s"
+	@echo "... RayCasting-Assets/Reader/ConfigReader.o"
+	@echo "... RayCasting-Assets/Reader/ConfigReader.i"
+	@echo "... RayCasting-Assets/Reader/ConfigReader.s"
 .PHONY : help
 
 

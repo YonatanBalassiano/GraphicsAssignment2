@@ -10,7 +10,7 @@
 #include <sstream>
 
 
-void ConfigReader::readFile(string fileName, const int width,const int height){
+void ConfigReader::readConfigFile(string fileName, const int width,const int height){
     int index = -1;
     string currentLine, currentArgInLine;
     vector<string> lineValues;

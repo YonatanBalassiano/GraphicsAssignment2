@@ -25,26 +25,29 @@ add_subdirectory(${PROJECT_SOURCE_DIR}/res/includes/glad)
 
 
 add_library(Display ${DISPLAY}
-        Util/Reader/ConfigReader.cpp
-        Util/Reader/ConfigReader.h
-        Util/Light/Light.cpp
-        Util/Light/Light.h
-        Util/Light/SpotLight.h
-        Util/Light/DirectionalLight.cpp
-        Util/Light/DirectionalLight.h
-        Util/Object/Object.cpp
-        Util/Object/Object.h
-        Util/Object/Plane.cpp
-        Util/Object/Plane.h
-        Util/Object/Sphere.cpp
-        Util/Object/Sphere.h
-        Util/ImageConstractor/Image.h
-        Util/ImageConstractor/Image.cpp
-        Util/ImageConstractor/Image.cpp
-        Util/ImageConstractor/Ray.cpp
-        Util/ImageConstractor/Ray.h
-        Util/ImageConstractor/Hit.cpp
-        Util/ImageConstractor/Hit.h)
+        RayCasting-Assets/Reader/ConfigReader.cpp
+        RayCasting-Assets/Reader/ConfigReader.h
+        RayCasting-Assets/Light/Light.cpp
+        RayCasting-Assets/Light/Light.h
+        RayCasting-Assets/Light/SpotLight.h
+        RayCasting-Assets/Light/DirectionalLight.cpp
+        RayCasting-Assets/Light/DirectionalLight.h
+        RayCasting-Assets/Object/Object.cpp
+        RayCasting-Assets/Object/Object.h
+        RayCasting-Assets/Object/Plane.cpp
+        RayCasting-Assets/Object/Plane.h
+        RayCasting-Assets/Object/Sphere.cpp
+        RayCasting-Assets/Object/Sphere.h
+        RayCasting-Assets/Components/Image.h
+        RayCasting-Assets/Components/Image.cpp
+        RayCasting-Assets/Components/Image.cpp
+        RayCasting-Assets/Components/Ray.cpp
+        RayCasting-Assets/Components/Ray.h
+        RayCasting-Assets/Components/Intersection.cpp
+        RayCasting-Assets/Components/Intersection.h
+        RayCasting-Assets/ImageConstructor/ImageConstructor.cpp
+        RayCasting-Assets/ImageConstructor/ImageConstructor.h
+        RayCasting-Assets/Object/Sphere.cpp)
 add_library(Engine ${ENGINE})
 
 

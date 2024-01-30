@@ -6,7 +6,7 @@
 #define GAME_OBJECT_H
 
 #include "glm/glm.hpp"
-#include "../Util/ImageConstractor/Ray.h"
+#include "../Components/Ray.h"
 
 enum objectTypes {
     REGULAR = 0,
@@ -24,9 +24,11 @@ public:
     objectTypes type;
     void setColor(glm::vec4 color);
     virtual ~Object() = 0;
+    virtual float FindIntersection(Ray ray) = 0;
 };
 
 float calculateVectorSize(const glm::vec3& vec);
+
 glm::vec3 normalizeVec(const glm::vec3& vec);
 
 #endif //GAME_OBJECT_H
