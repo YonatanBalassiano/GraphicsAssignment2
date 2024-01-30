@@ -21,13 +21,15 @@ int main(int argc,char *argv[])
 
 	display.SetScene(scn);
 
+	string fileName = "../scene4.txt";
+
+
 	while(!display.CloseWindow())
 	{
 		scn->Draw(1,0,scn->BACK,true,false);
 		scn->Motion();
 		display.SwapBuffers();
-		display.PollEvents();	
-			
+		display.PollEvents();
 	}
 	delete scn;
 	return 0;

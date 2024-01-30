@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\res\;CMake Files\res\includes\;CMake Files\res\includes\glfw\;CMake Files\res\includes\glfw\src\;CMake Files\res\includes\glfw\examples\;CMake Files\res\includes\glfw\CMake\;CMake Files\res\includes\glfw\tests\;CMake Files\res\includes\glad\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Engine3D"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/DisplayGLFW"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Engine3D"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/DisplayGLFW"/>
+					<Add directory="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug/res/includes/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\includes\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\res\includes\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\includes\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\res\includes\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\res\includes\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\res\includes\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\includes\glfw\examples\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/CMake/MacOSXBundleInfo.plist.in">
+			<Option virtualFolder="CMake Files\res\includes\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\includes\glfw\tests\"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\res\includes\glad\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
