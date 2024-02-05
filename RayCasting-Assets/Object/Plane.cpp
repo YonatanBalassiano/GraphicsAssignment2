@@ -38,7 +38,6 @@ glm::vec3 Plane::getColor(const glm::vec3& hit) const {
     return (param > 0.5) ? 0.5f * color : color;
 }
 
-
-glm::vec3 Plane::getNormal(const glm::vec3& hit) {
+glm::vec3 Plane::getNormal(glm::vec3 hit){
     return normalizeVec(this->normal());
 }

@@ -13,7 +13,7 @@ public:
     float getRadius() const;
     glm::vec3 getCenter() const;
     float FindIntersection(Ray ray) override;
-    glm::vec3 getNormal(glm::vec3 hit);
+    glm::vec3 getNormal(glm::vec3 hit) override;
     glm::vec3 getColor(const glm::vec3& hit) const;
 
     Sphere(const glm::vec4& position, objectTypes type);

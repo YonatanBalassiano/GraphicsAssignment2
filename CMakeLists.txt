@@ -30,6 +30,7 @@ add_library(Display ${DISPLAY}
         RayCasting-Assets/Light/Light.cpp
         RayCasting-Assets/Light/Light.h
         RayCasting-Assets/Light/SpotLight.h
+        RayCasting-Assets/Light/SpotLight.cpp
         RayCasting-Assets/Light/DirectionalLight.cpp
         RayCasting-Assets/Light/DirectionalLight.h
         RayCasting-Assets/Object/Object.cpp
@@ -47,11 +48,10 @@ add_library(Display ${DISPLAY}
         RayCasting-Assets/Components/Intersection.h
         RayCasting-Assets/ImageConstructor/ImageConstructor.cpp
         RayCasting-Assets/ImageConstructor/ImageConstructor.h
-        RayCasting-Assets/Object/Sphere.cpp)
+)
 add_library(Engine ${ENGINE})
 
 
 add_executable(${PROJ_NAME} ${GAME})
 
 target_link_libraries(${PROJ_NAME} Engine Display glfw glad)
-

@@ -16,7 +16,7 @@ public:
     float distance();
     float FindIntersection(Ray ray) override;
     glm::vec3 getColor(const glm::vec3& hit) const;
-    glm::vec3 getNormal(const glm::vec3& hit);
+    glm::vec3 getNormal(glm::vec3 hit) override;
 };
 
 #endif //GAME_PLANE_H
