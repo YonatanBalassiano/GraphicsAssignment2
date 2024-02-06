@@ -8,6 +8,7 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
+#include <iostream>
 
 
 void ConfigReader::readConfigFile(string fileName, const int width,const int height){
@@ -29,7 +30,8 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
         }
     }
 
-    for (auto & i : sceneData){
+
+    for (auto & i : sceneData) {
         float lineData[4] = {stof(i[1]), stof(i[2]), stof(i[3]),
                              stof(i[4])};
         char lineChar = i[0][0];
@@ -45,7 +47,7 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
             }
             case 'd' : {
                 lineData[3] > 0 ? lightData.push_back(new SpotLight(glm::vec3(lineData[0], lineData[1], lineData[2]))) :
-                    lightData.push_back(new DirectionalLight(glm::vec3(lineData[0], lineData[1], lineData[2])));
+                lightData.push_back(new DirectionalLight(glm::vec3(lineData[0], lineData[1], lineData[2])));
                 break;
             }
             case 'p' : {
@@ -69,11 +71,13 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
                 break;
             }
             case 'c' : {
+                std::cout << "color: " << lineData[0] << " " << lineData[1] << " " << lineData[2] << " " << lineData[3]
+                          << std::endl;
                 colorsData.emplace_back(lineData[0], lineData[1], lineData[2], lineData[3]);
                 break;
             }
         }
-
+    }
         setColorsToObjects();
         setSpotlightPosition();
 
@@ -81,7 +85,7 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
         pixelHeight = 2.0 / float(height);
         imageWidth = width;
         imageHeight = height;
-    }
+
 };
 
 

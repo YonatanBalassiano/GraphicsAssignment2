@@ -27,5 +27,5 @@ CMake Deprecation Warning at res/includes/glad/CMakeLists.txt:1 (cmake_minimum_r
 
 
 -- Configuring done (0.3s)
--- Generating done (1.0s)
+-- Generating done (0.7s)
 -- Build files have been written to: /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/cmake-build-debug

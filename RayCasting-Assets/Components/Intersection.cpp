@@ -3,8 +3,6 @@
 //
 #include "Intersection.h"
 
-Intersection::Intersection(Object *hittedObject, const glm::vec3& hit) {
-    this->hittedObject = hittedObject;
-    this->hit = hit;
+Intersection::Intersection(Object *hittedObject, const glm::vec3& hit) : hittedObject(hittedObject), hit(hit) {
 }
 

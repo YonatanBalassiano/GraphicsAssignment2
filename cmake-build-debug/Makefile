@@ -1000,30 +1000,6 @@ Game/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game/main.cpp.s
 .PHONY : Game/main.cpp.s
 
-RayCasting-Assets/Components/Hit.o: RayCasting-Assets/Components/Hit.cpp.o
-.PHONY : RayCasting-Assets/Components/Hit.o
-
-# target to build an object file
-RayCasting-Assets/Components/Hit.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.o
-.PHONY : RayCasting-Assets/Components/Hit.cpp.o
-
-RayCasting-Assets/Components/Hit.i: RayCasting-Assets/Components/Hit.cpp.i
-.PHONY : RayCasting-Assets/Components/Hit.i
-
-# target to preprocess a source file
-RayCasting-Assets/Components/Hit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.i
-.PHONY : RayCasting-Assets/Components/Hit.cpp.i
-
-RayCasting-Assets/Components/Hit.s: RayCasting-Assets/Components/Hit.cpp.s
-.PHONY : RayCasting-Assets/Components/Hit.s
-
-# target to generate assembly for a file
-RayCasting-Assets/Components/Hit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Hit.cpp.s
-.PHONY : RayCasting-Assets/Components/Hit.cpp.s
-
 RayCasting-Assets/Components/Image.o: RayCasting-Assets/Components/Image.cpp.o
 .PHONY : RayCasting-Assets/Components/Image.o
 
@@ -1047,6 +1023,30 @@ RayCasting-Assets/Components/Image.s: RayCasting-Assets/Components/Image.cpp.s
 RayCasting-Assets/Components/Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Image.cpp.s
 .PHONY : RayCasting-Assets/Components/Image.cpp.s
+
+RayCasting-Assets/Components/Intersection.o: RayCasting-Assets/Components/Intersection.cpp.o
+.PHONY : RayCasting-Assets/Components/Intersection.o
+
+# target to build an object file
+RayCasting-Assets/Components/Intersection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Intersection.cpp.o
+.PHONY : RayCasting-Assets/Components/Intersection.cpp.o
+
+RayCasting-Assets/Components/Intersection.i: RayCasting-Assets/Components/Intersection.cpp.i
+.PHONY : RayCasting-Assets/Components/Intersection.i
+
+# target to preprocess a source file
+RayCasting-Assets/Components/Intersection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Intersection.cpp.i
+.PHONY : RayCasting-Assets/Components/Intersection.cpp.i
+
+RayCasting-Assets/Components/Intersection.s: RayCasting-Assets/Components/Intersection.cpp.s
+.PHONY : RayCasting-Assets/Components/Intersection.s
+
+# target to generate assembly for a file
+RayCasting-Assets/Components/Intersection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Components/Intersection.cpp.s
+.PHONY : RayCasting-Assets/Components/Intersection.cpp.s
 
 RayCasting-Assets/Components/Ray.o: RayCasting-Assets/Components/Ray.cpp.o
 .PHONY : RayCasting-Assets/Components/Ray.o
@@ -1143,6 +1143,30 @@ RayCasting-Assets/Light/Light.s: RayCasting-Assets/Light/Light.cpp.s
 RayCasting-Assets/Light/Light.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/Light.cpp.s
 .PHONY : RayCasting-Assets/Light/Light.cpp.s
+
+RayCasting-Assets/Light/SpotLight.o: RayCasting-Assets/Light/SpotLight.cpp.o
+.PHONY : RayCasting-Assets/Light/SpotLight.o
+
+# target to build an object file
+RayCasting-Assets/Light/SpotLight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/SpotLight.cpp.o
+.PHONY : RayCasting-Assets/Light/SpotLight.cpp.o
+
+RayCasting-Assets/Light/SpotLight.i: RayCasting-Assets/Light/SpotLight.cpp.i
+.PHONY : RayCasting-Assets/Light/SpotLight.i
+
+# target to preprocess a source file
+RayCasting-Assets/Light/SpotLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/SpotLight.cpp.i
+.PHONY : RayCasting-Assets/Light/SpotLight.cpp.i
+
+RayCasting-Assets/Light/SpotLight.s: RayCasting-Assets/Light/SpotLight.cpp.s
+.PHONY : RayCasting-Assets/Light/SpotLight.s
+
+# target to generate assembly for a file
+RayCasting-Assets/Light/SpotLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Display.dir/build.make CMakeFiles/Display.dir/RayCasting-Assets/Light/SpotLight.cpp.s
+.PHONY : RayCasting-Assets/Light/SpotLight.cpp.s
 
 RayCasting-Assets/Object/Object.o: RayCasting-Assets/Object/Object.cpp.o
 .PHONY : RayCasting-Assets/Object/Object.o
@@ -1335,12 +1359,12 @@ help:
 	@echo "... Game/main.o"
 	@echo "... Game/main.i"
 	@echo "... Game/main.s"
-	@echo "... RayCasting-Assets/Components/Hit.o"
-	@echo "... RayCasting-Assets/Components/Hit.i"
-	@echo "... RayCasting-Assets/Components/Hit.s"
 	@echo "... RayCasting-Assets/Components/Image.o"
 	@echo "... RayCasting-Assets/Components/Image.i"
 	@echo "... RayCasting-Assets/Components/Image.s"
+	@echo "... RayCasting-Assets/Components/Intersection.o"
+	@echo "... RayCasting-Assets/Components/Intersection.i"
+	@echo "... RayCasting-Assets/Components/Intersection.s"
 	@echo "... RayCasting-Assets/Components/Ray.o"
 	@echo "... RayCasting-Assets/Components/Ray.i"
 	@echo "... RayCasting-Assets/Components/Ray.s"
@@ -1353,6 +1377,9 @@ help:
 	@echo "... RayCasting-Assets/Light/Light.o"
 	@echo "... RayCasting-Assets/Light/Light.i"
 	@echo "... RayCasting-Assets/Light/Light.s"
+	@echo "... RayCasting-Assets/Light/SpotLight.o"
+	@echo "... RayCasting-Assets/Light/SpotLight.i"
+	@echo "... RayCasting-Assets/Light/SpotLight.s"
 	@echo "... RayCasting-Assets/Object/Object.o"
 	@echo "... RayCasting-Assets/Object/Object.i"
 	@echo "... RayCasting-Assets/Object/Object.s"

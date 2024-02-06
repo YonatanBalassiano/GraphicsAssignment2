@@ -1958,16 +1958,16 @@
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Game/main.cpp">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.cpp">
-			<Option target="Display"/>
-		</Unit>
-		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Hit.h">
-			<Option target="Display"/>
-		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.cpp">
 			<Option target="Display"/>
 		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Image.h">
+			<Option target="Display"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Intersection.cpp">
+			<Option target="Display"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Intersection.h">
 			<Option target="Display"/>
 		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.cpp">
@@ -1992,6 +1992,9 @@
 			<Option target="Display"/>
 		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.h">
+			<Option target="Display"/>
+		</Unit>
+		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/SpotLight.cpp">
 			<Option target="Display"/>
 		</Unit>
 		<Unit filename="/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/SpotLight.h">
