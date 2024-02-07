@@ -4,7 +4,7 @@
 
 #include "DirectionalLight.h"
 
-DirectionalLight::DirectionalLight(glm::vec3 direction) {
+DirectionalLight::DirectionalLight(glm::vec3 direction){
     this->direction = direction;
     this->type = DIRECTIONAL;
 }

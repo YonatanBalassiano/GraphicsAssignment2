@@ -1,6 +1,3 @@
-//
-// Created by Yonatan Balassiano on 30/01/2024.
-//
 #include "Plane.h"
 
 Plane::Plane(const glm::vec4& position, objectTypes type) {
@@ -8,26 +5,37 @@ Plane::Plane(const glm::vec4& position, objectTypes type) {
     this ->objectData = position;
 }
 
+//
+// Created by Yonatan Balassiano on 30/01/2024.
+//
+Plane::Plane(glm::vec4 position, objectTypes type, glm::vec3 color, int index) {
+    this ->type = type;
+    this ->objectData = position;
+    this ->color = color;
+    this ->index = index;
+}
+
 glm::vec3 Plane::normal() {
     return glm::vec3(objectData.x, objectData.y, objectData.z);
 }
-
 float Plane::distance() {
     return objectData.w;
 }
 
+//todo: another observation by Gal
 float Plane::FindIntersection(Ray ray) {
-    glm::vec3 rayDirection = ray.direction;
-    glm::vec3 rayStartPoint = ray.point;
-    float normalDotRayDirection = glm::dot(this->normal(), rayDirection);
-    if (normalDotRayDirection == 0)
-        return -1;
-
-    float normalDotRayStartPoint = glm::dot(this->normal(), rayStartPoint);
-    float t = -(normalDotRayStartPoint + this->distance()) / normalDotRayDirection;
-    if (t < 0)
-        return -1;
-    return t;
+//    glm::vec3 rayDirection = ray.direction;
+//    glm::vec3 rayStartPoint = ray.point;
+//    float normalDotRayDirection = glm::dot(this->normal(), rayDirection);
+//    if (normalDotRayDirection == 0)
+//        return -1;
+//
+//    float normalDotRayStartPoint = glm::dot(this->normal(), rayStartPoint);
+//    float t = -(normalDotRayStartPoint + this->distance()) / normalDotRayDirection;
+//    if (t < 0)
+//        return -1;
+//
+//    return t;
 }
 
 glm::vec3 Plane::getColor(const glm::vec3& hit) const {
@@ -41,3 +49,4 @@ glm::vec3 Plane::getColor(const glm::vec3& hit) const {
 glm::vec3 Plane::getNormal(glm::vec3 hit){
     return normalizeVec(this->normal());
 }
+

@@ -17,10 +17,12 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
     vector<string> lineValues;
     ifstream sceneFile(fileName);
 
-    while (getline(sceneFile, currentLine)) {
+    while (getline(sceneFile, currentLine, '\n')){
+        currentLine.erase(std::remove(currentLine.begin(), currentLine.end(), '\r'), currentLine.end());
         stringstream textLineStream(currentLine);
 
         while (getline(textLineStream, currentArgInLine, ' ')) {
+            currentArgInLine.erase(std::remove(currentArgInLine.begin(), currentArgInLine.end(), '\r'), currentArgInLine.end());
             lineValues.push_back(currentArgInLine);
 
             if (++index % 5 == 4) {
@@ -29,7 +31,6 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
             }
         }
     }
-
 
     for (auto & i : sceneData) {
         float lineData[4] = {stof(i[1]), stof(i[2]), stof(i[3]),

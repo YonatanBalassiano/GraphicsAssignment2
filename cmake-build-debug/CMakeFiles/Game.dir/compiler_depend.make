@@ -1185,6 +1185,22 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/concepts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__format/format_error.h \
@@ -1510,9 +1526,12 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwctype \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
@@ -1793,8 +1812,6 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/ImageConstructor/ImageConstructor.h:
 
-/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.h:
-
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Components/Ray.h:
 
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Light/Light.h:
@@ -1806,6 +1823,34 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/res/includes/glfw/include/GLFW/glfw3.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/os/availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path.h:
+
+/Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/RayCasting-Assets/Reader/ConfigReader.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
 
@@ -1824,6 +1869,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Game/game.h:
 
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Engine3D/shape.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
 
 /Users/yonatanbal/Dev/BGU/graphics/GraphicsAssignment2/Engine3D/scene.h:
 
@@ -2025,6 +2072,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/stdint.h:
@@ -2213,6 +2262,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/istream:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/movable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset:
@@ -2319,6 +2370,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/empty.h:
@@ -2364,6 +2417,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
@@ -2806,6 +2861,8 @@ CMakeFiles/Game.dir/Game/main.cpp.o: /Users/yonatanbal/Dev/BGU/graphics/Graphics
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 

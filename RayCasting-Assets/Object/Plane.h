@@ -10,6 +10,8 @@
 class Plane : public Object {
 public:
     Plane(const glm::vec4& position, objectTypes type);
+    Plane(glm::vec4 position, objectTypes type, glm::vec3 color, int index);
+
     ~Plane() override = default;
 
     glm::vec3 normal();

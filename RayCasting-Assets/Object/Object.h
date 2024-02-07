@@ -21,7 +21,6 @@ public:
     glm::vec3 color;
     float colorAlpha;
     int index;
-    glm::vec4 direction;
     objectTypes type;
     void setColor(glm::vec4 color);
     virtual ~Object() = default;

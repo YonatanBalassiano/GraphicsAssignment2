@@ -21,8 +21,7 @@ public:
     lightTypes type;
     float shiness;
     void setIntensity(glm::vec4 intensity);
-    // Light() = default;
-    // ~Light() = default;
+
 };
 
 #endif
