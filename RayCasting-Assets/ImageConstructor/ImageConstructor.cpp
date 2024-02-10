@@ -7,11 +7,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
-
-
-
-
-
+#include <corecrt_math_defines.h>
 
 Image ImageConstructor::constructImage(const string& fileName, const int width, const int height){
     configReader = new ConfigReader();
@@ -29,15 +25,14 @@ Image ImageConstructor::constructImage(const string& fileName, const int width, 
     return image;
 }
 
-//todo: another observation by Gal
 Ray ImageConstructor::constructRayThroughPixel(const int x, const int y, const glm::vec3& eye) {
-    glm::vec3 topLeftPoint, hitVector, rayDirection;
-    topLeftPoint = glm::vec3(-1 + (configReader->getPixelWidth() / 2), 1 - (configReader->getPixelHeight() / 2), 0);
-    hitVector = topLeftPoint + glm::vec3(x * configReader->getPixelWidth(), -1 * (y * configReader->getPixelHeight()), 0);
-    rayDirection = normalizeVec(hitVector - eye);
-    return {eye, rayDirection};
-}
+    float width = configReader->getPixelWidth();
+    float height = configReader->getPixelHeight();    
 
+    glm::vec3 hit = glm::vec3(-1+(width / 2), 1-(height / 2), 0) + glm::vec3(x*width, -1*(y * height), 0);
+    glm::vec3 direction = normalizeVec(hit - eye);
+    return {eye, direction};
+}
 
 Intersection ImageConstructor::FindIntersection(const Ray& ray, int index) {
         float minT = std::numeric_limits<float>::infinity();
@@ -189,125 +184,3 @@ glm::vec3 ImageConstructor::getTransparentRayDirection (Intersection intersectio
         float cosEndingPoint = sqrt(1.0f - sinEndingPoint * sinEndingPoint);
         return normalizeVec((SNELL * cosStartingPoint - cosEndingPoint) * intersection.hittedObject->getNormal(intersection.hit) - SNELL * (-ray.direction));
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -48,6 +48,7 @@ add_library(Display ${DISPLAY}
         RayCasting-Assets/Components/Intersection.h
         RayCasting-Assets/ImageConstructor/ImageConstructor.cpp
         RayCasting-Assets/ImageConstructor/ImageConstructor.h
+        # SceneConfigFiles/scene1.txt
 )
 add_library(Engine ${ENGINE})
 

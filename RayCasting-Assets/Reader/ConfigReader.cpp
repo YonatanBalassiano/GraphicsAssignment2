@@ -18,6 +18,7 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
     ifstream sceneFile(fileName);
 
     while (getline(sceneFile, currentLine, '\n')){
+        cout << "currentLine: " << currentLine << std::endl; 
         currentLine.erase(std::remove(currentLine.begin(), currentLine.end(), '\r'), currentLine.end());
         stringstream textLineStream(currentLine);
 
@@ -30,6 +31,11 @@ void ConfigReader::readConfigFile(string fileName, const int width,const int hei
                 lineValues.clear();
             }
         }
+    }
+
+    if (sceneData.empty()) {
+        std::cout << "The file is empty" << std::endl;
+        return;
     }
 
     for (auto & i : sceneData) {

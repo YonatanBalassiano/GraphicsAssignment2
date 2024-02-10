@@ -22,20 +22,12 @@ float Plane::distance() {
     return objectData.w;
 }
 
-//todo: another observation by Gal
 float Plane::FindIntersection(Ray ray) {
-//    glm::vec3 rayDirection = ray.direction;
-//    glm::vec3 rayStartPoint = ray.point;
-//    float normalDotRayDirection = glm::dot(this->normal(), rayDirection);
-//    if (normalDotRayDirection == 0)
-//        return -1;
-//
-//    float normalDotRayStartPoint = glm::dot(this->normal(), rayStartPoint);
-//    float t = -(normalDotRayStartPoint + this->distance()) / normalDotRayDirection;
-//    if (t < 0)
-//        return -1;
-//
-//    return t;
+   if (glm::dot(normal(), ray.direction) == 0)
+       return -1;
+
+   float t = -(glm::dot(normal(), ray.point) + distance()) / glm::dot(normal(), ray.direction);
+   (t < 0) ? -1 : t;
 }
 
 glm::vec3 Plane::getColor(const glm::vec3& hit) const {
