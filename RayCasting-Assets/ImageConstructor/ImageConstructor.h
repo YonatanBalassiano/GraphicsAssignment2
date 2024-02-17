@@ -50,11 +50,7 @@ private:
 
     bool isLightVisible(const Intersection intersection, const Light *light);
 
-    glm::vec3 getTransparentPlaneColor(const Intersection &intersection, const Ray &ray, int depth);
 
-    glm::vec4 getTransparentSelfObjectColor(Intersection intersection, Ray transparentRay, int depth);
-
-    static glm::vec3 getTransparentRayDirection(Intersection intersection, Ray ray);
 
 
 public:

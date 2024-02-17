@@ -16,10 +16,10 @@ Image ImageConstructor::constructImage(const string& fileName, const int width, 
 
     for (int x = 0; x < width; x++){
         for (int y = 0; y < height; y++) {
-            Ray ray = constructRayThroughPixel(y, x, configReader->getEye());
+            Ray ray = constructRayThroughPixel(x, y, configReader->getEye());
             Intersection intersection = FindIntersection(ray, -1);
             glm::vec4 color = getColor(intersection, ray, 0);
-            image.setColorToPixel(y,x,color);
+            image.setColorToPixel(x, y, color);
         }
     }
     return image;
@@ -29,7 +29,7 @@ Ray ImageConstructor::constructRayThroughPixel(const int x, const int y, const g
     float width = configReader->getPixelWidth();
     float height = configReader->getPixelHeight();    
 
-    glm::vec3 hit = glm::vec3(-1+(width / 2), 1-(height / 2), 0) + glm::vec3(x*width, -1*(y * height), 0);
+    glm::vec3 hit = glm::vec3(-1+(width / 2), 1-(height / 2), 0) + glm::vec3(y*width, -1*(x * height), 0);
     glm::vec3 direction = normalizeVec(hit - eye);
     return {eye, direction};
 }
@@ -88,23 +88,57 @@ glm::vec3 ImageConstructor::GetColorReflective(const Intersection& intersection,
         return glm::min (glm::vec3(color.r, color.g, color.b), glm::vec3(1,1,1));
 }
 
-glm::vec3 ImageConstructor::GetColorTransparent(const Intersection& intersection, const Ray& ray, int depth) {
-    if (intersection.hittedObject -> objectData.a < 0.0) return getTransparentPlaneColor(intersection, ray,depth);
-
-    glm::vec3 rayDirection = getTransparentRayDirection(intersection, ray);
-    Ray transparentRay = Ray(intersection.hit,rayDirection);
-    Intersection transparencyHit = FindIntersection(transparentRay, -1);
-
-    glm::vec4 color = (transparencyHit.hittedObject->index != intersection.hittedObject->index) ? getColor(transparencyHit,transparentRay, depth + 1) : getTransparentSelfObjectColor(intersection, transparentRay, depth);
-    return glm::min(glm::vec3(color.r, color.g, color.b), glm::vec3(1.0f, 1.0f, 1.0f));
+float DegreesToRadians(float deg) {
+    return deg * (M_PI/180);
 }
 
-glm::vec3 ImageConstructor :: getTransparentPlaneColor(const Intersection& intersection, const Ray& ray, int depth) {
-    Ray rayThrowPlane = Ray( intersection.hit,ray.direction);
-    Intersection planeIntersection = FindIntersection(rayThrowPlane, intersection.hittedObject->index);
-    if (planeIntersection.hittedObject->type == NONE) return {0,0,0};
-    glm::vec4 color = getColor(planeIntersection, rayThrowPlane, depth + 1);
-    return glm::min(glm::vec3(color.r, color.g, color.b), glm::vec3(1.0f, 1.0f, 1.0f));
+float RadiansToDegrees(float rad) {
+    return rad * (180/M_PI);
+}
+
+glm::vec3 calcTransparency(float snell, const Intersection& intersection, const Ray& ray, int depth) {
+
+    float cosTheta_i = glm::dot(intersection.hittedObject->getNormal(intersection.hit), -ray.direction);
+    float theta_i = RadiansToDegrees(acos(cosTheta_i));
+    float sinTheta_i = sin(DegreesToRadians(theta_i));
+    float sinTheta_r = snell * sinTheta_i;
+    float theta_r = RadiansToDegrees(asin(sinTheta_r));
+    float cosTheta_r = cos(DegreesToRadians(theta_r));
+
+    glm::vec3 N = intersection.hittedObject->getNormal(intersection.hit);
+    if (snell > 1) N = -N; 
+    glm::vec3 L = -ray.direction;
+
+    glm::vec3 T = (snell * cosTheta_i - cosTheta_r) * N - snell * L;
+    return normalizeVec(T);
+
+}
+
+glm::vec3 ImageConstructor::GetColorTransparent(const Intersection& intersection, const Ray& ray, int depth){
+    glm::vec4 transColor = glm::vec4(0, 0, 0, 0);
+    float snell = (1 / 1.5);
+    glm::vec3 rayInDirection = calcTransparency(snell, intersection, ray, depth);
+    Ray rayIn = Ray(intersection.hit, rayInDirection);
+
+    Intersection transparencyInter = FindIntersection(rayIn, -1);
+
+    if (transparencyInter.hittedObject->index != intersection.hittedObject->index) {
+        transColor = getColor(transparencyInter, rayIn, depth+1);
+    }
+    else {
+        glm::vec3 secondInter = rayIn.point + rayIn.direction * (intersection.hittedObject->FindIntersection(rayIn));
+        glm::vec3 rayOutDirection = calcTransparency(1 / snell, intersection, rayIn, depth);
+        Ray rayOut = Ray(secondInter, rayOutDirection);
+
+        Intersection transparencyHitOut = FindIntersection(rayOut, intersection.hittedObject->index);
+
+        if (transparencyHitOut.hittedObject->type == NONE) {
+            return glm::vec3(0, 0, 0);
+        }
+
+        transColor = getColor(transparencyHitOut,rayOut, depth + 1);
+    }
+    return glm::min({transColor.r, transColor.g, transColor.b}, glm::vec3(1, 1, 1));
 }
 
 bool ImageConstructor::isLightVisible( const Intersection intersection, const Light* light) {
@@ -158,29 +192,3 @@ bool ImageConstructor::isHittingAnObject(const Light *light, const Intersection 
 glm::vec3 ImageConstructor::calcNormalizeRay(const Light* light, const Intersection intersection, const float factor) {
     return (light->type == SPOT) ? factor * normalizeVec(intersection.hit - light->position): factor * normalizeVec(light->direction);
 }
-
-glm::vec4 ImageConstructor::getTransparentSelfObjectColor(Intersection intersection, Ray transparentRay, int depth) {
-    float t = intersection.hittedObject->FindIntersection(transparentRay);
-    glm::vec3 hitPoint = transparentRay.point + transparentRay.direction * t;
-
-    float cosFrom = glm::dot(-intersection.hittedObject->getNormal(hitPoint), -transparentRay.direction);
-    float REVERSE_SNELL = (1.5f / 1.0f);
-    float cosTo = cos(asin(REVERSE_SNELL * sin(acos(cosFrom) * (180.0f / M_PI) * (M_PI / 180.0f)))) * (180.0f / M_PI);
-
-    glm:: vec3 rayDirection = normalizeVec((REVERSE_SNELL * cosFrom - cosTo) * -intersection.hittedObject->getNormal(intersection.hit) - REVERSE_SNELL * (-transparentRay.direction));
-    Ray outsideRay = Ray(hitPoint,rayDirection);
-
-    Intersection transparencyOutside = FindIntersection(outsideRay, intersection.hittedObject->index);
-    if (transparencyOutside.hittedObject->type == NONE) {
-        return glm::vec4(0.f, 0.f, 0.f,0.f);
-    }
-    return getColor(transparencyOutside,outsideRay, depth + 1);
-};
-
-glm::vec3 ImageConstructor::getTransparentRayDirection (Intersection intersection , Ray ray) {
-        float SNELL = (1.0f / 1.5f);
-        float cosStartingPoint = glm::dot(intersection.hittedObject->getNormal(intersection.hit), -ray.direction);
-        float sinEndingPoint = SNELL * sqrt(1.0f - cosStartingPoint * cosStartingPoint);
-        float cosEndingPoint = sqrt(1.0f - sinEndingPoint * sinEndingPoint);
-        return normalizeVec((SNELL * cosStartingPoint - cosEndingPoint) * intersection.hittedObject->getNormal(intersection.hit) - SNELL * (-ray.direction));
-};

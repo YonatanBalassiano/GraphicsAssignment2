@@ -12,7 +12,7 @@ Image::Image(int width, int height) {
 }
 
 void Image::setColorToPixel(int x, int y, const glm::vec4& color) const {
-    int baseIndex = (this->width * y + x) * 4;
+    int baseIndex = (this->width * x + y) * 4;
     data[baseIndex] = static_cast<unsigned char>(color.r * 255);
     data[baseIndex + 1] = static_cast<unsigned char>(color.g * 255);
     data[baseIndex + 2] = static_cast<unsigned char>(color.b * 255);

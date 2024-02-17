@@ -25,7 +25,7 @@ int main(int argc,char *argv[])
 
 	display.SetScene(scn);
 
-	std::string fileName = "C:/Users/galed/OneDrive/Desktop/currentProjects/GraphicsAssignment2/SceneConfigFiles/scene5.txt";
+	std::string fileName = "C:/Users/galed/OneDrive/Desktop/currentProjects/GraphicsAssignment2/SceneConfigFiles/custom_scene.txt";
 
 	ImageConstructor imgConstructor = ImageConstructor();
 	Image img = imgConstructor.constructImage(fileName, DISPLAY_WIDTH, DISPLAY_HEIGHT);
